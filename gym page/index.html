@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZUX GYM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mq.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <h2>AZUX</h2>
+                </div>
+                <div class="list-items">
+                    <ul>
+                        <li>HOME</li>
+                        <li>ABOUT US</li>
+                        <li>OUR TRAINERS</li>
+                        <li>CLASEES</li>
+                        <li>SHOP</li>
+                        <li>PAGES</li>
+                        <li>BLOG</li>
+                        <li>CONTECT</li>
+                    </ul>
+
+                    <button class="btn" id="btn">GET STARTED</button>
+                    <div class="burger">
+                        <div class="burger-items"></div>
+                        <div class="burger-items m-t"></div>
+                        <div class="burger-items m-t"></div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- main -->
+        <main class="main">
+            <section class="hero">
+                <div class="hero-items">
+                    <div class="heading">
+                        <h1 class="white">AZUX</h1>
+                        <h1 class="orange">FITNESSS</h1>
+                        <h1 class="white">CENTER</h1>
+                    </div>
+                    <div class="dummy-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti minus eaque enim? Quod quia molestiae eveniet aliquid fugiat! Eum, quas?</p>
+                    </div>
+                    <div class="btns">
+                        <button class="btn-contact ">CONTACT</button>
+                        <button class="btn-more">READ MORE</button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bar">
+                <div class="white-bar"></div>
+                <div class="orange-bar"></div>
+            </div>
+            <div class="burger-list">
+                <div class="list-items2">
+                    <button class="btn bt" id="btn">⨉</button>
+                    <ul>
+                        <li>HOME</li>
+                        <li>ABOUT US</li>
+                        <li>OUR TRAINERS</li>
+                        <li>CLASEES</li>
+                        <li>SHOP</li>
+                        <li>PAGES</li>
+                        <li>BLOG</li>
+                        <li>CONTECT</li>
+
+                    </ul>
+                </div>
+        </main>
+        </div>
+        <script>
+            // side navbar
+            var bt = document.querySelector('.bt');
+            bt.addEventListener('click', () => {
+                document.querySelector('.burger-list').style.display = 'none';
+            })
+            var burger = document.querySelector('.burger');
+            burger.addEventListener('click', () => {
+                document.querySelector('.burger-list').style.display = 'block';
+            })
+        </script>
+</body>
+
+</html>

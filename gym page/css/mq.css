@@ -1,0 +1,158 @@
+  /* mq */
+  
+  @media screen and (max-width:1073px) {
+      .navbar .list-items ul {
+          font-size: 14px;
+      }
+      .btn {
+          padding: 11px 13px;
+      }
+      .navbar .logo {
+          font-size: 1.5rem;
+      }
+      .hero-items {
+          width: 49vw;
+      }
+      .dummy-text {
+          font-size: 12px;
+      }
+  }
+  
+  @media screen and (max-width:815px) {
+      .navbar .list-items ul {
+          gap: 13px;
+      }
+      .btn-more {
+          padding: 9px 13px;
+      }
+      .btn-contact {
+          padding: 11px 16px;
+      }
+  }
+  
+  @media screen and (max-width:763px) {
+      .navbar .list-items ul {
+          display: none;
+      }
+      .burger {
+          display: block;
+      }
+      .hero-items {
+          width: 61vw;
+      }
+      .burger-list {
+          display: none;
+          width: 28%;
+          height: 44%;
+          padding: 14px;
+          border-radius: 3px;
+          text-align: left;
+      }
+      .list-items2 ul li {
+          margin-top: 4px;
+          padding: 4px;
+      }
+      .list-items2 ul li:hover {
+          background: orange;
+          color: white;
+      }
+      .bt {
+          display: block;
+      }
+      .bt:hover {
+          background: none;
+          color: black;
+          background-origin: 1px solid var(--main);
+      }
+  }
+  
+  @media screen and (max-width:552px) {
+      .navbar .logo {
+          font-size: 1.4rem;
+      }
+      .btn {
+          padding: 10px 11px;
+          font-size: 13px;
+      }
+      .burger-items {
+          width: 23px;
+      }
+      .hero-items {
+          width: 80vw;
+      }
+      .white {
+          font-size: 1.8rem;
+      }
+      .orange {
+          font-size: 1.8rem;
+      }
+      .btn-contact {
+          padding: 10px 13px;
+          font-size: 13px;
+      }
+      .btn-more {
+          padding: 10px 13px;
+          font-size: 13px;
+      }
+      .burger-list {
+          width: 40%;
+          height: 45%;
+      }
+      .bt {
+          display: block;
+      }
+      .bt:hover {
+          background: none;
+          color: black;
+          background-origin: 1px solid var(--main);
+      }
+  }
+  
+  @media screen and (max-width:400px) {
+      .hero-items {
+          width: 90vw;
+      }
+      .btn {
+          display: none;
+      }
+      .btn-contact {
+          font-size: 11px;
+          padding: 11px 13px;
+      }
+      .btn-more {
+          font-size: 11px;
+      }
+      .navbar .logo {
+          font-size: 1.2rem;
+      }
+      .white {
+          font-size: 1.6rem;
+      }
+      .orange {
+          font-size: 1.6rem;
+      }
+      .heading {
+          margin-top: 2.5rem;
+      }
+      .dummy-text {
+          margin-top: 6px;
+          font-size: 11px;
+      }
+      .burger-list {
+          width: 53%;
+      }
+      .bt {
+          display: block;
+      }
+      .bt:hover {
+          background: none;
+          color: black;
+          background-origin: 1px solid var(--main);
+      }
+      .bar {
+          left: 40%;
+      }
+      .burger-list {
+          height: 55%;
+      }
+  }
